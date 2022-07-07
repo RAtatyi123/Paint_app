@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrawingApp</string>
+    <string name="image">image</string>
+    <string name="brushImage">brushImage</string>
+    <string name="colorPallet">colorPallet</string>
+    <string name="backgroundImage">backgroundImage</string>
+    <string name="galleryImage">galleryImage</string>
+    <string name="undoImage">undoImage</string>
+    <string name="saveImage">saveImage</string>
+    <string name="shareImage">shareImage</string>
+</resources>

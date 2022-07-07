@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManuActivity">
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="201dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_custom"
+        android:backgroundTint="#00BCD4"
+        android:text="Exit"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_about" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="201dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/button_custom"
+        android:backgroundTint="#F44336"
+        android:text="About"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="451dp"
+        android:layout_height="202dp"
+        android:background="#b8f11a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="201dp"
+            android:layout_height="82dp"
+            android:background="@drawable/button_custom"
+            android:text="PAINT"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="446dp"
+        android:layout_height="396dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#14554F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_about"
+        app:srcCompat="@drawable/ic_caran" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
